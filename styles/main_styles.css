@@ -410,13 +410,10 @@ section
 3.3 Logo
 *********************************/
 
-.logo a span
-{
-	font-size: 24px;
-	color: #353535;
-}
 .logo a img
 {
+	width: 100px;
+	height: 90px;
 	display: inline-block;
 	vertical-align: text-bottom;
 }
