@@ -405,14 +405,10 @@ section
 /*********************************
 3.3 Logo
 *********************************/
-
-.logo a span
-{
-	font-size: 24px;
-	color: #353535;
-}
 .logo a img
 {
+	width: 100px;
+	height: 90px;
 	display: inline-block;
 	vertical-align: text-bottom;
 }
@@ -808,6 +804,10 @@ section
 }
 .pastors_slider_container
 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  justify-content: center;
 	width: 100%;
 	margin-top: 85px;
 }
