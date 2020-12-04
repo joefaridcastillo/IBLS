@@ -493,6 +493,7 @@ section
 	-o-transition: all 400ms ease;
 	transition: all 400ms ease;
 }
+
 .header_search_container.active
 {
 	bottom: -73px;
