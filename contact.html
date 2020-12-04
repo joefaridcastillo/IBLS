@@ -211,13 +211,13 @@
 					<form name="contact" method="POST" data-netlify="true" action="#" class="contact_form">
 						<div class="row">
 							<div class="col-md-6">
-								<input type="text" class="contact_input contacts_input_name" placeholder="Tu nombre" required="required">
+								<input type="text" name="name" class="contact_input contacts_input_name" placeholder="Tu nombre" required="required">
 							</div>
 							<div class="col-md-6">
-								<input type="email" class="contact_input contact_input_email" placeholder="Tu correo electrónico" required="required">
+								<input type="email" name="email" class="contact_input contact_input_email" placeholder="Tu correo electrónico" required="required">
 							</div>
 						</div>
-						<textarea id="contact_text_area" placeholder="Tu mensaje" class="contact_text"></textarea>
+						<textarea name="message" id="contact_text_area" placeholder="Tu mensaje" class="contact_text"></textarea>
 						<button type="submit" class="contact_button trans_200">Enviar</button>
 					</form>
 				</div>
