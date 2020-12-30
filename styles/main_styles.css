@@ -757,10 +757,14 @@ section
 }
 .intro_button
 {
+	
+	margin: 0 auto;
 	margin-top: 50px;
+
 }
 .intro_image
 {
+	margin: 0 auto;
 	width: 100%;
 }
 .intro_image img
