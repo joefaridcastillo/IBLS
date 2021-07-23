@@ -727,11 +727,20 @@ section
 }
 .ministry_image
 {
+
 	width: 100%;
 }
 .ministry_image img
 {
 	max-width: 100%;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+.ministry_image-1 img
+{
+	max-width: 96%;
+	border-radius: 50%;
+
 }
 .ministry_title
 {
@@ -747,6 +756,14 @@ section
 .ministry_button
 {
 	margin-top: 34px;
+}
+/*********************************
+ Ministerios listing
+*********************************/
+.story p{
+	font-size: 18px;
+	line-height: 35px;
+	margin-bottom: 120px;
 }
 
 /*********************************
